@@ -2,7 +2,6 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 
-import torch
 
 grid = np.array([[0 for _ in range(7)] for _ in range(7)])
 whites = {1: (0,1), 2: (1,2), 3: (2,1), 4: (4,1), 5: (5,2), 6: (6,1)}
